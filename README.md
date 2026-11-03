@@ -25,7 +25,6 @@ I work across the stack: **Angular** on the frontend, **Java + Spring Boot** on 
 | Project | What it is | Stack |
 |---|---|---|
 | [Angular Student Management System](https://github.com/jagadeeshdammu/angular-student-management-system) | Add, edit and delete student records | Angular, TypeScript |
-| [F1 Portfolio](https://github.com/jagadeeshdammu/f1-portfolio) | Personal portfolio | — |
 | *Fee Payment Tracker (coming soon)* | Angular + Spring Boot app with JWT login, REST API and MySQL | Angular, Spring Boot, MySQL |
 
 ### 📫 Reach me

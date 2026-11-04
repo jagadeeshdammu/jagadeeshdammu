@@ -38,14 +38,15 @@
 <table>
   <tr>
     <td width="50%" valign="top">
-      <a href="https://jagadeeshdammu.github.io/fee-payment-tracker/"><img src="assets/fee-tracker.jpg" alt="Fee Payment Tracker dashboard"></a>
-      <h4><a href="https://github.com/jagadeeshdammu/fee-payment-tracker">💳 Fee Payment Tracker</a></h4>
-      <p>School fee app with JWT roles (admin / accountant). Payments can't exceed the balance or reuse a transaction reference, and optimistic locking stops two clerks from overwriting each other. Includes an overdue list and a collections dashboard, with tests in CI.</p>
+      <a href="https://jagadeeshdammu.github.io/fee-payment-tracker/"><img src="assets/fee-tracker.jpg" alt="Ledgr fee tracker dashboard"></a>
+      <h4><a href="https://github.com/jagadeeshdammu/fee-payment-tracker">💳 Ledgr · School Fee Tracker</a></h4>
+      <p>School fee app with JWT roles (admin / accountant). Payments can't exceed the balance or reuse a transaction reference, and optimistic locking stops two clerks from overwriting each other. Has a filterable payments ledger with CSV export, printable receipts, one-tap WhatsApp reminders for overdue fees and billing a whole class at once. Hand-built SVG charts, GSAP motion and dark mode, with tests in CI.</p>
       <p>
         <img src="https://img.shields.io/badge/Angular_19-DD0031?style=flat-square&logo=angular&logoColor=white" alt="Angular">
         <img src="https://img.shields.io/badge/Spring_Boot_3-6DB33F?style=flat-square&logo=springboot&logoColor=white" alt="Spring Boot">
         <img src="https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white" alt="MySQL">
         <img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white" alt="Docker">
+        <img src="https://img.shields.io/badge/GSAP-0AE448?style=flat-square&logo=greensock&logoColor=black" alt="GSAP">
       </p>
       <a href="https://jagadeeshdammu.github.io/fee-payment-tracker/"><b>▶ Live demo</b></a> · <a href="https://github.com/jagadeeshdammu/fee-payment-tracker">Code</a>
     </td>

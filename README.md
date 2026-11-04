@@ -24,9 +24,9 @@ I work across the stack: **Angular** on the frontend, **Java + Spring Boot** on 
 
 | Project | What it is | Stack |
 |---|---|---|
-| [F1 Portfolio](https://github.com/jagadeeshdammu/f1-portfolio) · [live](https://jagadeeshdammu.github.io/f1-portfolio/) | F1-themed personal site with start-lights intro, skill gauges and project pit-stop reports | Angular 19, Signals, SCSS, GitHub Actions |
+| [Fee Payment Tracker](https://github.com/jagadeeshdammu/fee-payment-tracker) · [live](https://jagadeeshdammu.github.io/fee-payment-tracker/) | School fee app: JWT roles, payments with no overpay / no duplicate reference, optimistic locking, overdue tracking, tested in CI | Angular 19, Spring Boot 3, Spring Security, MySQL, Flyway, Docker |
+| [F1 Portfolio](https://github.com/jagadeeshdammu/f1-portfolio) · [live](https://jagadeeshdammu.github.io/f1-portfolio/) | Playable top-down F1 game: drive through 4 sector gates to unlock my profile, skills, projects and contact | Angular 19, Signals, Canvas, GitHub Actions |
 | [Angular Student Management System](https://github.com/jagadeeshdammu/angular-student-management-system) | Add, edit and delete student records | Angular, TypeScript |
-| *Fee Payment Tracker (coming soon)* | Angular + Spring Boot app with JWT login, REST API and MySQL | Angular, Spring Boot, MySQL |
 
 ### 📫 Reach me
 

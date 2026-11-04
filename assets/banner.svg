@@ -1,0 +1,106 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 320" width="1200" height="320" role="img" aria-label="Dammu Jagadeesh - Full Stack Developer">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0b0b10"/>
+      <stop offset=".6" stop-color="#140608"/>
+      <stop offset="1" stop-color="#2a0606"/>
+    </linearGradient>
+    <linearGradient id="red" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#ff4a3d"/>
+      <stop offset=".5" stop-color="#e10600"/>
+      <stop offset="1" stop-color="#6e0000"/>
+    </linearGradient>
+    <linearGradient id="trail" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#e10600" stop-opacity="0"/>
+      <stop offset="1" stop-color="#ff2a1f" stop-opacity=".8"/>
+    </linearGradient>
+    <radialGradient id="glow" cx=".8" cy=".1" r=".7">
+      <stop offset="0" stop-color="#e10600" stop-opacity=".35"/>
+      <stop offset="1" stop-color="#e10600" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="check" width="16" height="16" patternUnits="userSpaceOnUse">
+      <rect width="16" height="16" fill="#111"/>
+      <rect width="8" height="8" fill="#eee"/>
+      <rect x="8" y="8" width="8" height="8" fill="#eee"/>
+    </pattern>
+    <style>
+      .streak { animation: streak 2.4s linear infinite; }
+      .s2 { animation-duration: 1.7s; animation-delay: -.6s; }
+      .s3 { animation-duration: 2.9s; animation-delay: -1.3s; }
+      .s4 { animation-duration: 2.1s; animation-delay: -.2s; }
+      @keyframes streak { from { transform: translateX(-400px); } to { transform: translateX(1400px); } }
+      .car { animation: drive 6s cubic-bezier(.55,0,.35,1) infinite; }
+      @keyframes drive { 0%,41% { transform: translateX(-420px); } 80%,100% { transform: translateX(1300px); } }
+      .wheel { animation: spin .25s linear infinite; transform-box: fill-box; transform-origin: center; }
+      @keyframes spin { to { transform: rotate(360deg); } }
+      .l1 { animation: l1 6s infinite; } .l2 { animation: l2 6s infinite; } .l3 { animation: l3 6s infinite; }
+      .l4 { animation: l4 6s infinite; } .l5 { animation: l5 6s infinite; }
+      @keyframes l1 { 0%,4% { fill: #2a0000; } 5%,40% { fill: #ff2a1f; } 41%,100% { fill: #2a0000; } }
+      @keyframes l2 { 0%,10% { fill: #2a0000; } 11%,40% { fill: #ff2a1f; } 41%,100% { fill: #2a0000; } }
+      @keyframes l3 { 0%,16% { fill: #2a0000; } 17%,40% { fill: #ff2a1f; } 41%,100% { fill: #2a0000; } }
+      @keyframes l4 { 0%,22% { fill: #2a0000; } 23%,40% { fill: #ff2a1f; } 41%,100% { fill: #2a0000; } }
+      @keyframes l5 { 0%,28% { fill: #2a0000; } 29%,40% { fill: #ff2a1f; } 41%,100% { fill: #2a0000; } }
+      .go { animation: go 6s infinite; }
+      @keyframes go { 0%,40% { opacity: 0; } 42%,60% { opacity: 1; } 70%,100% { opacity: 0; } }
+      .name { font: italic 900 64px 'Segoe UI', 'Helvetica Neue', Arial, sans-serif; letter-spacing: 1px; }
+      .sub { font: 600 24px 'Segoe UI', 'Helvetica Neue', Arial, sans-serif; fill: #e8e8ee; }
+      .meta { font: 500 17px 'Segoe UI', 'Helvetica Neue', Arial, sans-serif; fill: #a3a3b5; letter-spacing: .5px; }
+      .tag { font: 700 13px 'Segoe UI', Arial, sans-serif; letter-spacing: 3px; fill: #ff6a63; }
+      .dot { animation: pulse 1.6s ease-in-out infinite; }
+      @keyframes pulse { 50% { opacity: .25; } }
+    </style>
+  </defs>
+
+  <rect width="1200" height="320" rx="18" fill="url(#bg)"/>
+  <rect width="1200" height="320" rx="18" fill="url(#glow)"/>
+
+  <!-- speed streaks -->
+  <g opacity=".7">
+    <rect class="streak" x="0" y="60" width="260" height="2" fill="url(#trail)"/>
+    <rect class="streak s2" x="0" y="118" width="180" height="2" fill="url(#trail)"/>
+    <rect class="streak s3" x="0" y="196" width="320" height="2" fill="url(#trail)"/>
+    <rect class="streak s4" x="0" y="246" width="220" height="2" fill="url(#trail)"/>
+  </g>
+
+  <!-- red racing stripe -->
+  <path d="M0 300 L1200 262 L1200 270 L0 308 Z" fill="#e10600" opacity=".85"/>
+  <rect y="304" width="1200" height="16" fill="url(#check)" opacity=".9"/>
+
+  <!-- text -->
+  <text x="60" y="78" class="tag">PORTFOLIO GRAND PRIX · CAR #21</text>
+  <text x="58" y="150" class="name" fill="#ffffff">DAMMU <tspan fill="#e10600">JAGADEESH</tspan></text>
+  <text x="60" y="192" class="sub">Full Stack Developer  ·  Angular  ·  Java  ·  Spring Boot</text>
+  <circle class="dot" cx="66" cy="226" r="6" fill="#00d26a"/>
+  <text x="82" y="232" class="meta">SDE III @ Knowvo  ·  Bengaluru, India  ·  Open to Full Stack roles</text>
+
+  <!-- start lights -->
+  <g transform="translate(905 40)">
+    <rect width="250" height="70" rx="12" fill="#050507" stroke="#2a2a38"/>
+    <g>
+      <circle class="l1" cx="35" cy="35" r="17" fill="#2a0000"/>
+      <circle class="l2" cx="80" cy="35" r="17" fill="#2a0000"/>
+      <circle class="l3" cx="125" cy="35" r="17" fill="#2a0000"/>
+      <circle class="l4" cx="170" cy="35" r="17" fill="#2a0000"/>
+      <circle class="l5" cx="215" cy="35" r="17" fill="#2a0000"/>
+    </g>
+    <text class="go tag" x="125" y="100" text-anchor="middle" fill="#00d26a" style="fill:#00d26a">LIGHTS OUT</text>
+  </g>
+
+  <!-- car -->
+  <g class="car">
+    <g transform="translate(0 236) scale(.40)">
+      <rect x="-200" y="78" width="200" height="14" fill="url(#trail)" opacity=".8"/>
+      <path d="M28 26 L62 26 L70 112 L40 112 Z" fill="#16161c"/>
+      <path d="M22 30 Q60 22 104 30 L104 40 Q60 33 22 41 Z" fill="url(#red)"/>
+      <path d="M80 104 L96 62 Q180 48 262 40 L282 40 L300 66 L250 108 Z" fill="url(#red)"/>
+      <path d="M150 112 Q160 74 220 72 L330 74 Q350 78 352 94 L345 116 L170 118 Z" fill="url(#red)"/>
+      <path d="M280 68 Q330 62 380 74 L520 98 Q570 106 600 112 L600 118 L520 118 L300 116 Z" fill="url(#red)"/>
+      <path d="M120 86 Q240 70 360 78 L600 114" stroke="#fff" stroke-width="3" fill="none"/>
+      <circle cx="308" cy="60" r="14" fill="#ffd400"/>
+      <path d="M268 64 Q300 34 350 60 L356 74 L350 74 Q302 48 276 70 Z" fill="#1b1b22"/>
+      <path d="M488 122 Q550 114 628 118 L628 124 L486 128 Z" fill="url(#red)"/>
+      <g class="wheel"><circle cx="140" cy="118" r="40" fill="#0a0a0c"/><circle cx="140" cy="118" r="38" fill="none" stroke="#ffd400" stroke-width="3"/><path d="M140 92 V144 M114 118 H166" stroke="#444" stroke-width="5"/></g>
+      <g class="wheel"><circle cx="480" cy="120" r="36" fill="#0a0a0c"/><circle cx="480" cy="120" r="34" fill="none" stroke="#ffd400" stroke-width="3"/><path d="M480 96 V144 M456 120 H504" stroke="#444" stroke-width="5"/></g>
+    </g>
+  </g>
+</svg>

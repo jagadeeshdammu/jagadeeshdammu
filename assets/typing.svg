@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 44" width="900" height="44" role="img" aria-label="What I build">
+  <defs>
+    <clipPath id="c1"><rect x="0" y="0" height="44" width="0">
+      <animate attributeName="width" dur="12s" repeatCount="indefinite" keyTimes="0;0.15;0.30;0.32;1" values="0;900;900;0;0"/></rect></clipPath>
+    <clipPath id="c2"><rect x="0" y="0" height="44" width="0">
+      <animate attributeName="width" dur="12s" repeatCount="indefinite" keyTimes="0;0.33;0.48;0.63;0.65;1" values="0;0;900;900;0;0"/></rect></clipPath>
+    <clipPath id="c3"><rect x="0" y="0" height="44" width="0">
+      <animate attributeName="width" dur="12s" repeatCount="indefinite" keyTimes="0;0.66;0.81;0.97;0.99;1" values="0;0;900;900;0;0"/></rect></clipPath>
+  </defs>
+  <style>
+    text { font: 600 24px 'Segoe UI', 'Helvetica Neue', Arial, sans-serif; fill: #e10600; }
+  </style>
+  <g clip-path="url(#c1)"><text x="450" y="31" text-anchor="middle">Building School ERP &amp; EdTech products end to end 🏫</text></g>
+  <g clip-path="url(#c2)"><text x="450" y="31" text-anchor="middle">Payment flows that never double-charge 💳</text></g>
+  <g clip-path="url(#c3)"><text x="450" y="31" text-anchor="middle">Open to Full Stack · Angular + Java roles 🚀</text></g>
+</svg>

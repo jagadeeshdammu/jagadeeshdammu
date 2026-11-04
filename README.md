@@ -38,7 +38,7 @@
 <table>
   <tr>
     <td width="50%" valign="top">
-      <a href="https://jagadeeshdammu.github.io/fee-payment-tracker/"><img src="assets/ledgr-dashboard.jpg" alt="Ledgr fee tracker dashboard"></a>
+      <a href="https://jagadeeshdammu.github.io/fee-payment-tracker/"><img src="https://raw.githubusercontent.com/jagadeeshdammu/fee-payment-tracker/main/docs/dashboard.png" alt="Ledgr fee tracker dashboard"></a>
       <h4><a href="https://github.com/jagadeeshdammu/fee-payment-tracker">💳 Ledgr · School Fee Tracker</a></h4>
       <p>School fee app with JWT roles (admin / accountant). Payments can't exceed the balance or reuse a transaction reference, and optimistic locking stops two clerks from overwriting each other. Has a filterable payments ledger with CSV export, printable receipts, one-tap WhatsApp reminders for overdue fees and billing a whole class at once. Hand-built SVG charts, GSAP motion and dark mode, with tests in CI.</p>
       <p>
